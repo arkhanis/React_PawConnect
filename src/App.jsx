@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 import { Footer, Header, Features, Possibility, WhatPC } from './containers'
-import { Cta, Brand, Article, Feature, Navbar } from './components'
+import { Cta, Article, Feature, Navbar } from './components'
 
 function App() {
 
@@ -17,7 +17,6 @@ function App() {
         <Navbar />
         <Header />
       </div>
-      <Brand />
       <WhatPC />
       <Features />
       <Possibility />

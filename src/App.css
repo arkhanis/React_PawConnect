@@ -19,19 +19,19 @@ a {
   background: radial-gradient(circle at 3% 25%, rgba(0, 35, 86, 1) 0%, rgba(4, 12, 24, 1) 100%);
 }
 
-.gradiente__text {
-  background: var(--gradiente-text);
+.gradient__text {
+  background: var(--gradient-text);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .section__padding {
-  padding: 4rem 6 rem;
+  padding: 4rem 6rem;
 }
 
 .section__margin {
-  padding: 4rem 6 rem;
+  padding: 4rem 6rem;
 }
 
 .scale-up-center {

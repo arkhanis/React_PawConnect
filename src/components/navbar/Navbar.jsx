@@ -29,7 +29,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className='pawC__navbar-sign'>
+      <div className='pawsC__navbar-sign'>
         <p>Sign in</p>
         <button type='button'>Sign up</button>
       </div>
@@ -43,7 +43,7 @@ const Navbar = () => {
           <div className='pawsC__navbar-menu_container scale-up-center'>
             <div className='pawsC__navbar-menu_container-links'>
               <Menu />
-              <div className='pawC__navbar-menu_container-links-sign'>
+              <div className='pawsC__navbar-menu_container-links-sign'>
                 <p>Sign in</p>
                 <button type='button'>Sign up</button>
               </div>

@@ -3,7 +3,7 @@
     align-items: center;
 }
 
-pawsC__header-content {
+.pawsC__header-content {
     flex: 1;
     display: flex;
     justify-content: center;

@@ -29,8 +29,8 @@ const Features = () => {
         <h1 className='gradient__text'>Why Choose PawsConnect?</h1>
       </div>
       <div className='pawsC__features-container'>
-        {featuresData.map((feature, index) => (
-          <Features />
+        {featuresData.map((item, index) => (
+          <Features title={item.title} text={item.text + index} key={item.title} />
         ))}
       </div>
     </div>

@@ -1,0 +1,73 @@
+.pawsC__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem 6rem;
+}
+
+.pawsC__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pawsC__navbar-links_logo {
+    margin-right: 2rem;
+}
+
+.pawsC__navbar-links_logo img {
+    width: 62px;
+    height: 16px;
+}
+
+.pawsC__navbar-links_container {
+    display: flex;
+}
+
+.pawsC__navbar-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.pawsC__navbar-links_container p,
+.pawsC__navbar-sign p,
+.pawsC__navbar-menu_container p {
+    margin: 0 1rem;
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.pawC__navbar-sign{
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+}
+
+.pawC__navbar-sign button,
+.pawsC__navbar-menu_container button {
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #FF4820;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

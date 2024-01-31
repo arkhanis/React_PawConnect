@@ -17,16 +17,16 @@ const WhyPC = () => {
       </div>
       <div className='pawsC__whypawsC-container'> 
       <Feature 
-          title="1- Register with Your Pet"
-          text="Create a charming and endearing profile that captures the lovable personality of your furry friend, highlighting their unique traits and adorable quirks."
+          title="Safe and Reliable"
+          text="We take great care to ensure a safe and secure environment for your beloved pet, so that you can have peace of mind knowing that they are well looked after."
         />
       <Feature 
-          title="2- Explore Profiles"
-          text="Discover other pets near you in your local area using our innovative pet finding tool."
+          title="Active Community"
+          text="Join a passionate and dedicated community of pet lovers who come together to share their love for all kinds of furry, feathered, and scaly friends."
         />
       <Feature 
-          title="3- Make Matches"
-          text="Match with pets who share similar interests and start the fun activities together!"
+          title="User-Friendly"
+          text="Easily navigate through our user-friendly interface to get your pet started on their socialization journey in just a few minutes. It's that simple"
         />
       <Feature 
           title="4- Build Connections"

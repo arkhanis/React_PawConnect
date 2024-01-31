@@ -1,6 +1,6 @@
 import React from 'react'
 import Feature from '../../components/feature/Feature'
-import './features.css'
+import './howpc.css'
 
 const featuresData = [
   {
@@ -8,7 +8,7 @@ const featuresData = [
     text: 'Create a charming and endearing profile that captures the lovable personality of your furry friend, highlighting their unique traits and adorable quirks.'
   },
   {
-    title: '2- Explore Profiles' ,
+    title: '2- Explore others Profiles' ,
     text: 'Discover other pets near you in your local area using our innovative pet finding tool.'
   },
   {
@@ -22,11 +22,11 @@ const featuresData = [
 ]
 
 
-const Features = () => {
+const HowPC = () => {
   return (
     <div className='pawsC__features section__padding' id="features">
       <div className='pawsC__features-heading'>
-        <h1 className='gradient__text'>Why Choose PawsConnect?</h1>
+        <h1 className='gradient__text'>How does it work?</h1>
       </div>
       <div className='pawsC__features-container'>
         {featuresData.map((feature, index) => (
@@ -37,4 +37,4 @@ const Features = () => {
   )
 }
 
-export default Features
+export default HowPC

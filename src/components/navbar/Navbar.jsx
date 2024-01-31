@@ -6,8 +6,8 @@ import logo from '../../assets/logo.svg';
 const Menu = () => (
   <>
     <p> <a href="#home">Home</a></p>
-    <p> <a href="#how">How It Works</a></p>
-    <p> <a href="#why">Why Us</a></p>
+    <p> <a href="#howPC">How It Works</a></p>
+    <p> <a href="#whypawsC">Why Us</a></p>
     <p> <a href="#testimonials">Testimonials</a></p>
   </>
 )

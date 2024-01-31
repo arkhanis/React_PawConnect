@@ -2,6 +2,7 @@ import React from 'react'
 import './whypc.css'
 import { Feature } from '../../components'
 
+
 const WhyPC = () => {
   return (
     <div className='pawsC__whypawsC section__margin' id='whypawsC'>

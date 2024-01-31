@@ -16,7 +16,7 @@ const featuresData = [
     text: 'Match with pets who share similar interests and start the fun activities together!'
   },
   {
-    title: '4- Build Connections' ,
+    title: '4- Build Connections for your pet' ,
     text: 'Plan playdates, such as visits to the park or arranging fun activities at home, and use these opportunities to meet new friends in your community.'
   }
 ]
@@ -24,7 +24,7 @@ const featuresData = [
 
 const HowPC = () => {
   return (
-    <div className='pawsC__features section__padding' id="features">
+    <div className='pawsC__features section__padding' id="howPC">
       <div className='pawsC__features-heading'>
         <h1 className='gradient__text'>How does it work?</h1>
       </div>

@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-import { Footer, Header, Features, Possibility, WhatPC } from './containers'
+import { Footer, Header, Features, Possibility, WhyPC } from './containers'
 import { Cta, Article, Feature, Navbar } from './components'
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
         <Navbar />
         <Header />
       </div>
-      <WhatPC />
+      <WhyPC />
       <Features />
       <Possibility />
       <Cta />

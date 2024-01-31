@@ -1,21 +1,21 @@
 import React from 'react'
-import './whatpc.css'
+import './whypc.css'
 import { Feature } from '../../components'
 
-const WhatPC = () => {
+const WhyPC = () => {
   return (
-    <div className='pawsC__whatpawsC section__margin' id='whatpawsC'>
-      <div className='pawsC__whatpawsC-feature'>
+    <div className='pawsC__whypawsC section__margin' id='whypawsC'>
+      <div className='pawsC__whypawsC-feature'>
         <Feature 
           title="What is PawsConnect"
           text="It's an exciting platform designed to bring pets together with their furry soulmates. Think of it as Tinder, but specifically tailored for your adorable four-legged companions to find love and friendship. "
         />
       </div>
-      <div className='pawsC__whatpawsC-heading'>
+      <div className='pawsC__whypawsC-heading'>
         <h1 className='gradient__text'>How It Works</h1>
         <p>Swipe right for a lifetime of paw-some memories. Our app is like Tinder, but for pets! Connect your beloved companions with their furry soulmates today.</p>
       </div>
-      <div className='pawsC__whatpawsC-container'> 
+      <div className='pawsC__whypawsC-container'> 
       <Feature 
           title="1- Register with Your Pet"
           text="Create a charming and endearing profile that captures the lovable personality of your furry friend, highlighting their unique traits and adorable quirks."
@@ -37,4 +37,4 @@ const WhatPC = () => {
   )
 }
 
-export default WhatPC
+export default WhyPC

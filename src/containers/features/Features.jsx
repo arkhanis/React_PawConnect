@@ -4,19 +4,19 @@ import './features.css'
 
 const featuresData = [
   {
-    title: 'Register with Your Pet' ,
+    title: '1- Register with Your Pet' ,
     text: 'Create a charming and endearing profile that captures the lovable personality of your furry friend, highlighting their unique traits and adorable quirks.'
   },
   {
-    title: 'Explore Profiles' ,
+    title: '2- Explore Profiles' ,
     text: 'Discover other pets near you in your local area using our innovative pet finding tool.'
   },
   {
-    title: 'Make Matches' ,
+    title: '3- Make Matches' ,
     text: 'Match with pets who share similar interests and start the fun activities together!'
   },
   {
-    title: 'Build Connections' ,
+    title: '4- Build Connections' ,
     text: 'Plan playdates, such as visits to the park or arranging fun activities at home, and use these opportunities to meet new friends in your community.'
   }
 ]
@@ -25,12 +25,12 @@ const featuresData = [
 const Features = () => {
   return (
     <div className='pawsC__features section__padding' id="features">
-      <div className='pawsC_features-heading'>
+      <div className='pawsC__features-heading'>
         <h1 className='gradient__text'>Why Choose PawsConnect?</h1>
       </div>
       <div className='pawsC__features-container'>
-        {featuresData.map((item, index) => (
-          <Features title={item.title} text={item.text + index} key={item.title} />
+        {featuresData.map((feature, index) => (
+          <Feature key={index} title={feature.title} text={feature.text} />
         ))}
       </div>
     </div>

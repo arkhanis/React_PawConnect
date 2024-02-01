@@ -1,0 +1,17 @@
+.paws__footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  background: var(--color-footer);
+}
+
+.paws__footer p{
+    font-family: var(--font-family);
+    padding: 1rem 0;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 30px;
+    color: var(--color-text);
+}

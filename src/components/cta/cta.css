@@ -15,3 +15,59 @@
     font-weight: 500;
     line-height: 30px;
 }
+
+.paws__cta-content h3{
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 45px;
+}
+
+.paws__cta-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.paws__cta-btn button{
+    background: #000;
+    color: #fff;
+    border-radius: 40px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0.5rem 1rem;
+    
+    border: none;
+    outline: none;
+    min-width: 150px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 650px){
+    .paws__cta{
+        flex-direction: column;
+    }
+
+    .paws__cta-btn{
+        margin: 2rem 0 0;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .paws__cta{
+        margin: 4rem 2rem;
+    }
+
+    .paws__cta-content h3{
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .paws__cta-btn button{
+        font-size: 14px;
+        line-height: 28px;
+    }
+}

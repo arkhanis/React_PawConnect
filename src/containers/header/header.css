@@ -17,8 +17,7 @@
     font-family: var(--font-family);
     font-size: 62px;
     line-height: 75px;
-    font-weight: 800;
-    letter-spacing: -0.05em;
+    font-weight: 700;
 }
 
 .pawsC__header-content p {
@@ -91,7 +90,7 @@
     font-size: 12px;
     line-height: 38px;
     text-align: center;
-    color: #fff
+    color: #111
 }
 
 .pawsC__header-image {

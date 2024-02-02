@@ -16,7 +16,7 @@ const featuresData = [
     text: 'Match with pets who share similar interests and start the fun activities together!'
   },
   {
-    title: '4- Build Connections for your pet' ,
+    title: '4- Build Connections' ,
     text: 'Plan playdates, such as visits to the park or arranging fun activities at home, and use these opportunities to meet new friends in your community.'
   }
 ]

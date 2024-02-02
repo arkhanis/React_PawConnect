@@ -8,8 +8,6 @@ import { Cta, Article, Feature, Navbar } from './components'
 
 function App() {
 
-
-
   return (
 
     <div className="App">

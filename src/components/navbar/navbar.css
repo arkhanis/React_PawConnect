@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
 
-    padding: 2rem 6rem;
+    padding: 1rem 6rem;
 }
 
 .pawsC__navbar-links {
@@ -18,8 +18,8 @@
 }
 
 .pawsC__navbar-links_logo img {
-    width: 62px;
-    height: 16px;
+    width: 80px;
+    height: 80px;
 }
 
 .pawsC__navbar-links_container {
@@ -36,7 +36,7 @@
 .pawsC__navbar-sign p,
 .pawsC__navbar-menu_container p {
     margin: 0 1rem;
-    color: #fff;
+    color: #000;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
@@ -71,6 +71,12 @@
     outline: none;
     cursor: pointer;
 }
+
+.paws__cta-btn button:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
 
 .pawsC__navbar-menu{
     display: none;

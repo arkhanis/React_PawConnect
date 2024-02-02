@@ -9,9 +9,14 @@
 
 .paws__footer p{
     font-family: var(--font-family);
-    padding: 1rem 0;
+    padding: 0 0 1rem 0;
     font-size: 12px;
     font-weight: 500;
     line-height: 30px;
     color: var(--color-text);
+}
+
+.paws__footer img {
+  width: 140px;
+  height: 140px;
 }

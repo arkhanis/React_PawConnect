@@ -2,7 +2,7 @@ import React from "react";
 import "./header.css";
 
 import people from "../../assets/people.png";
-import herodog from "../../assets/herodog.png";
+import herodog from "../../assets/herodog.webp";
 
 const Header = () => {
   return (

@@ -68,7 +68,7 @@ a {
   }
 
   .section__margin {
-    padding: 4rem;
+    margin: 4rem;
   }
 }
 
@@ -78,6 +78,6 @@ a {
   }
 
   .section__margin {
-    padding: 4rem 1rem;
+    margin: 4rem 2rem;
   }
 }

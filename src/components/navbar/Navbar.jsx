@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './navbar.css';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
+import { FaUser } from 'react-icons/fa';
 import logo from '../../assets/logo.svg';
 
 const Menu = () => (
@@ -13,7 +14,7 @@ const Menu = () => (
 
 const Navbar = () => {
 
-  const [toggleMenu, setToggleMenu] = useState(false);
+const [toggleMenu, setToggleMenu] = useState(false);
 
 
   return (
@@ -29,8 +30,9 @@ const Navbar = () => {
       </div>
 
       <div className='pawsC__navbar-sign'>
-        <p>Sign in</p>
-        <button type='button'>Sign up</button>
+        <button type='button'>
+          <FaUser />
+        </button>
       </div>
 
       <div className='pawsC__navbar-menu'>

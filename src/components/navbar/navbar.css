@@ -45,7 +45,7 @@
     cursor: pointer;
 }
 
-.pawsC__navbar-sign{
+.pawsC__navbar-sign {
     color: #fff;
     display: flex;
     justify-content: flex-end;
@@ -60,8 +60,7 @@
 .pawsC__navbar-sign button,
 .pawsC__navbar-menu_container button {
     padding: 0.5rem 1rem;
-    color: #fff;
-    background: #FF4820;
+    color: #222;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
@@ -69,21 +68,21 @@
     border: none;
     outline: none;
     cursor: pointer;
+    background: none;
 }
 
-.pawsC__navbar-sign button:hover{
-    border-radius: 20px 20px 20px 20px;
-    background: linear-gradient(180deg, rgb(233, 4, 0) 0%, rgb(248, 124, 167) 100%);
+.pawsC__navbar-sign button:hover {
+    transform: scale(1.2);
     transition: all 0.45s ease;
 }
 
-.pawsC__navbar-menu{
+.pawsC__navbar-menu {
     display: none;
     margin-left: 1rem;
     position: relative;
 }
 
-pawsC__navbar-menu svg{
+pawsC__navbar-menu svg {
     cursor: pointer;
 }
 
@@ -105,7 +104,7 @@ pawsC__navbar-menu svg{
     box-shadow: 0 0 5 rpga(0, 0, 0, 0.2);
 }
 
-.pawsC__navbar-menu_container p{
+.pawsC__navbar-menu_container p {
     margin: 1rem 0;
 }
 
@@ -118,22 +117,23 @@ pawsC__navbar-menu svg{
     .pawsC__navbar-links_container {
         display: none;
     }
-    
+
     .pawsC__navbar-menu {
         display: flex;
     }
 }
 
 @media screen and (max-width: 700px) {
-    .pawsC__navbar{
+    .pawsC__navbar {
         padding: 2rem 4rem;
     }
 }
 
 @media screen and (max-width: 550px) {
-    .pawsC__navbar{
+    .pawsC__navbar {
         padding: 2rem;
     }
+
     .pawsC__navbar-sign {
         display: none;
     }

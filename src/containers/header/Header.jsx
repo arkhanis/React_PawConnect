@@ -9,6 +9,9 @@ import { useState } from "react";
 
 const Header = () => {
 
+  const [showModal, setShowModal] = useState(false)
+  const [isSignUp, setIsSignUp] = useState(true)
+
   const authToken = false
 
   const handleClick = () => {
@@ -16,8 +19,7 @@ const Header = () => {
     setShowModal(true)
   }
 
-  const [showModal, setShowModal] = useState(false)
-
+  
   return (
     <div className="pawsC__header section__padding" id="home">
       <div className="pawsC__header-content">

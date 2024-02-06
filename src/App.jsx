@@ -1,26 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react'
+import Home from './pages/home'
+import Dashboard from './pages/dashboard'
+import Register from './pages/register'
 
-import { Footer, Header, HowPC, Possibility, WhyPC } from './containers'
-import { Cta, Article, Feature, Navbar } from './components'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-function App() {
 
+
+const App = () => {
   return (
-
-    <div className="App">
-      <div className='gradient__bg'>
-        <Navbar />
-        <Header />
-      </div>
-      <HowPC />
-      <WhyPC />
-      <Possibility />
-      <Cta />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route   path='/'            element={<Home />} />
+        <Route   path='/dashboard'   element={<Dashboard />} />
+        <Route   path='/register'    element={<Register />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 

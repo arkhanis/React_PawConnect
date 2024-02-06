@@ -1,10 +1,23 @@
 import React from "react";
 import "./header.css";
+import AuthModal from "../../components/AuthModal/AuthModal";
 
 import people from "../../assets/people.png";
 import herodog from "../../assets/herodog.webp";
 
+import { useState } from "react";
+
 const Header = () => {
+
+  const authToken = false
+
+  const handleClick = () => {
+    console.log('clicked')
+    setShowModal(true)
+  }
+
+  const [showModal, setShowModal] = useState(false)
+
   return (
     <div className="pawsC__header section__padding" id="home">
       <div className="pawsC__header-content">
@@ -15,9 +28,14 @@ const Header = () => {
         </p>
 
         <div className="pawsC__header-content__input">
-          <input type="email" placeholder="Your Email Adress" />
-          <button type="button">Get Started</button>
+          <button type="button" onClick={handleClick}>
+            {authToken ? 'Find a furry friend' : 'Create Account'}
+          </button>
         </div>
+
+        {showModal && (
+          <AuthModal setShowModal = {setShowModal}/>
+        )}
 
         <div className="pawsC__header-content_people">
           <img src={people} alt="people" />

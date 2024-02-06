@@ -1,0 +1,19 @@
+.auth-modal{
+    font-family: var(--font-family);
+    position: absolute;
+    top: 100px;
+    right: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 350px;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.937);
+    border-radius: 10px;
+    border: 1px solid #ffe2e2;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+}
+
+.close-icon {
+    float: right;
+}

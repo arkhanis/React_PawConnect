@@ -32,41 +32,32 @@
 }
 
 .pawsC__header-content__input {
-    width: 100%;
-    margin: 2rem 0 1rem;
+    width: 300px;
+    margin: 2rem 0 0.5rem;
 
     display: flex;
 }
 
-.pawsC__header-content__input input {
-    flex: 2;
-    width: 100%;
-    min-height: 50px;
-    font-size: 20px;
-    line-height: 27px;
-    background: var(--color-footer);
-    border: 2px solid var(--color-footer);
-    padding: 0 1rem;
-    outline: none;
-    font-family: var(--font-family);
-    border-radius: 5px 0px 0px 5px;
-
-    color: #fff;
-}
 
 .pawsC__header-content__input button {
     flex: 0.6;
     width: 100%;
     min-height: 50px;
     background: #ff4820;
-    border-radius: 0px 5px 5px 0px;
     border: none;
     font-family: var(--font-family);
-    font-size: 20px;
+    font-size: 16px;
     line-height: 27px;
     color: #fff;
     cursor: pointer;
     padding: 0 1rem;
+
+}
+
+.pawsC__header-content__input button:hover {
+    border-radius: 20px 20px 20px 20px;
+    background: linear-gradient(180deg, rgb(233, 4, 0) 0%, rgb(248, 124, 167) 100%);
+    transition: all 0.45s ease;
 }
 
 .pawsC__header-content_people {
@@ -152,6 +143,7 @@
         font-size: 14px;
         line-height: 24px;
     }
+
 
     .pawsC__header-content__input input,
     .pawsC__header-content__input button {

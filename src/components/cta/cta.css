@@ -50,8 +50,9 @@
 }
 
 .paws__cta-btn button:hover{
-    transform: scale(1.05);
-    transition: all 0.3s ease;
+    border-radius: 20px 20px 20px 20px;
+    background: linear-gradient(180deg, rgb(233, 4, 0) 0%, rgb(248, 124, 167) 100%);
+    transition: all 0.45s ease;
 }
 
 @media screen and (max-width: 650px){
